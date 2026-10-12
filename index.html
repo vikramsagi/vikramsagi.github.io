@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vikram Sagi · Product Manager</title>
 <meta name="description" content="Vikram Sagi, product manager working on platform products and generative AI in healthcare and financial services.">
 <link rel="icon" href="assets/vikram-96.jpg">
@@ -13,77 +13,177 @@
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=8">
 </head>
 <body>
 <header class="top">
-  <div class="wrap narrow">
-    <a class="brand" href="#"><img src="assets/vikram-96.jpg" alt="">Vikram Sagi</a>
-    <nav><a href="#now">Now</a><a href="#experience">Experience</a><a href="#projects">Projects</a></nav>
+  <div class="wrap">
+    <a class="brand" href="#"><img src="assets/vikram-96.jpg" alt=""><span>Vikram Sagi</span></a>
+    <nav><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a></nav>
   </div>
 </header>
 
-<main class="wrap narrow">
-<section class="intro">
-  <img class="avatar" src="assets/vikram.jpg" alt="Vikram Sagi" width="120" height="120">
-  <div>
-    <h1>Vikram Sagi</h1>
-    <p class="eyebrow">Product Manager</p>
-    <p class="links-inline"><a href="https://www.linkedin.com/in/vikramsagi1">LinkedIn</a><a href="https://github.com/vikramsagi">GitHub</a></p>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Product manager</p>
+        <h1>Vikram Sagi</h1>
+        <p class="lead">I am a product manager working on platform products and generative AI in healthcare and financial services. I like turning messy business and engineering requirements into products that ship and hold up.</p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="#projects">See my work</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/vikramsagi1">LinkedIn</a>
+          <a class="btn btn-secondary" href="https://github.com/vikramsagi">GitHub</a>
+        </div>
+        <details class="more">
+          <summary><span>More about me</span><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <div class="more-grid">
+            <div><p class="more-label">How I got here</p><p>I started in mechanical engineering, but a financial mathematics course changed my direction. We built a project that optimized options trading strategies, and I enjoyed that data and modeling work more than anything in my core courses. So I went to NYU for an MS in Management of Technology, focused on data science and product. There I learned that knowing what to build and why matters as much as knowing how to build it.</p></div>
+            <div><p class="more-label">From data to product</p><p>At Optum I started on data problems in Workforce Management. I moved into product management so I could use data to drive decisions instead of only supporting them. My first real call was an AI assistant. Data showed developers losing about 80 hours a week searching for APIs and documentation. We built a RAG assistant on GPT-4o and shipped an MVP in 6 months that 40 customers adopted.</p></div>
+            <div><p class="more-label">Why I love this work</p><p>What I enjoy most is deciding what will create the most value for users, engineers and the business. It is rarely obvious, and that is the appeal. I bring a data background to the call, so my priorities come from evidence rather than habit or opinion.</p></div>
+          </div>
+        </details>
+      </div>
+      <img class="portrait" src="assets/vikram-portrait.jpg" alt="Vikram Sagi" width="400" height="480">
+    </div>
   </div>
-  <div class="bio">
-    <p>I am a product manager working on platform products and generative AI in healthcare and financial services. I like turning messy business and engineering requirements into products that ship and hold up.</p>
-    <details>
-      <summary>Read the longer version</summary>
-      <p>I started in data, building route-optimization and reinforcement learning models for field operations, and then dashboards and reporting at Optum. From there I moved into product.</p>
-      <p>At Optum I owned the roadmap for an API gateway behind 1,500+ APIs and $30M+ in platform revenue, and helped launch the platform team's first external generative AI product: a RAG assistant that signed 40 paying B2B customers in 6 months. I moved my team to weekly AI prototyping and built a reusable prompt library along the way.</p>
-      <p>Most of my work has been in regulated industries, where a good product also has to satisfy security, compliance and a lot of stakeholders. I studied Management of Technology at NYU and Mechanical Engineering at Mahindra University, and I am a Claude Certified Architect and a Certified Scrum Product Owner.</p>
-    </details>
-  </div>
-</section>
-
-<section id="now">
-  <h2>Now</h2>
-  <p class="caption">Updated October 2026</p>
-  <ul class="plain">
-    <li>Leading a process-automation program for State Street at Jersey Technology Partners, across 34 clients and 10 operations pods.</li>
-    <li>Building AI products on my own time to test ideas end to end, from the problem to the evals. The first one is a denial triage agent for hospital billing teams.</li>
-  </ul>
 </section>
 
 <section id="experience">
-  <h2>Experience</h2>
-  <ol class="timeline">
-    <li><span class="caption">Jul 2026 to now</span><strong>Technical Product Manager</strong><span class="small muted">Jersey Technology Partners, for State Street</span><span class="small">Automated 8 health checks per client, cutting each client's effort from 1 hr 20 min to 20 min.</span></li>
-    <li><span class="caption">Feb 2025 to Jun 2026</span><strong>Technical Product Manager, API Gateway</strong><span class="small muted">Optum (UnitedHealth Group)</span><span class="small">Owned the roadmap for a tier-0 gateway behind 1,500+ APIs and $30M+ in platform revenue.</span></li>
-    <li><span class="caption">Feb 2024 to Jan 2025</span><strong>Associate Technical Product Manager</strong><span class="small muted">Optum, Marketplace and Platform Solutions</span><span class="small">Launched a RAG assistant that signed 40 paying B2B customers in 6 months.</span></li>
-    <li><span class="caption">Jul 2023 to Jan 2024</span><strong>Technology Development Associate</strong><span class="small muted">Optum, Workforce Management</span><span class="small">Built operations dashboards that improved response times by about 15%.</span></li>
-    <li><span class="caption">Jan to May 2023</span><strong>Data Science Consultant (Intern)</strong><span class="small muted">Inova Geophysical</span><span class="small">Route optimization and reinforcement learning that cut truck idle time by about 5%.</span></li>
-  </ol>
-  <p class="small muted" style="margin-top:8px">New York University, M.S. Management of Technology, 2023 · Mahindra University, B.Tech Mechanical Engineering, 2020</p>
+  <div class="wrap">
+    <div class="section-head"><h2>Experience</h2></div>
+
+    <div class="company">
+      <div class="company-meta"><strong>Jersey Technology Partners</strong><span>Client: State Street</span></div>
+      <div class="roles">
+        <div>
+          <div class="role-head"><h3>Technical Product Manager</h3><span class="when">Jul 2026 to now</span></div>
+          <ul class="impact">
+            <li>Lead a process-automation program for <strong>34 clients</strong> across 10 operations pods</li>
+            <li>Automated 8 health checks per client, cutting each client's effort from <strong>1 hr 20 min to 20 min</strong></li>
+            <li>Own the roadmap and quarterly priorities, sequenced against vendor delivery capacity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="company">
+      <div class="company-meta"><strong>Optum</strong><span>UnitedHealth Group</span><span class="tag">3 roles, 2023 to 2026</span></div>
+      <div class="roles">
+        <div>
+          <div class="role-head"><h3>Technical Product Manager, API Gateway</h3><span class="when">Feb 2025 to Jun 2026</span></div>
+          <ul class="impact">
+            <li>Owned the roadmap for a tier-0 gateway behind <strong>1,500+ APIs</strong> and <strong>$30M+</strong> in platform revenue</li>
+            <li>Moved the team to weekly AI prototyping: about <strong>12 interactive prototypes a quarter</strong> and a reusable prompt library</li>
+            <li>Built customer-facing observability for 30 clients, split by regulatory tier</li>
+          </ul>
+        </div>
+        <div>
+          <div class="role-head"><h3>Associate Technical Product Manager, Marketplace and Platform Solutions</h3><span class="when">Feb 2024 to Jan 2025</span></div>
+          <ul class="impact">
+            <li>Launched the platform team's first external generative AI product with 10+ engineers</li>
+            <li>Signed <strong>40 paying B2B customers in 6 months</strong> with a RAG assistant and self-service knowledge base</li>
+            <li>Cut product discovery time from 30 minutes to 5, about <strong>83% faster</strong></li>
+            <li>Found <strong>$500K</strong> in cost-reduction opportunities through product analytics</li>
+          </ul>
+        </div>
+        <div>
+          <div class="role-head"><h3>Technology Development Associate, Workforce Management</h3><span class="when">Jul 2023 to Jan 2024</span></div>
+          <ul class="impact">
+            <li>Built operations dashboards that improved response times by about <strong>15%</strong></li>
+            <li>Coordinated 9 concurrent projects with business and delivery partners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="company">
+      <div class="company-meta"><strong>Inova Geophysical</strong><span>Internship</span></div>
+      <div class="roles">
+        <div>
+          <div class="role-head"><h3>Data Science Consultant (Intern)</h3><span class="when">Jan to May 2023</span></div>
+          <ul class="impact">
+            <li>Built route-optimization and reinforcement learning models for seismic-truck operations</li>
+            <li>Improved data-collection accuracy by about <strong>15%</strong> and cut idle time by about <strong>5%</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="projects">
-  <h2>Projects</h2>
-  <ul class="projects">
-    <li>
-      <div>
-        <strong>Denial triage and appeal agent</strong>
-        <span class="small muted">October 2026 · Healthcare · AI agent</span>
-        <p class="small">Decides which denied hospital claims are worth fixing, appealing or letting go, and drafts appeal letters in which every fact cites its source. On 100 held-out claims it kept 99.1% of the recoverable dollars, against 82.5% without AI.</p>
+  <div class="wrap">
+    <div class="section-head"><h2>Projects</h2></div>
+    <article class="feature">
+      <a class="feature-visual" href="https://github.com/vikramsagi/denial-triage" aria-label="Open the denial triage case study">
+        <div class="feature-frame"><img src="assets/denial-triage-queue.svg" alt="The agent's denial queue: every claim arrives with a recommendation and the reason behind it."></div>
+        <div class="feature-frame"><img src="assets/denial-triage-results.svg" alt="Share of recoverable dollars kept on 100 held-out claims: 99.1% for the agent against 82.5%, 66.5% and 49.1% for approaches without AI."></div>
+      </a>
+      <div class="feature-body">
+        <span class="pill">Featured project</span>
+        <h3>Denial triage and appeal agent</h3>
+        <p class="feature-sub">AI agent design and evaluation</p>
+        <p>Hospitals lose money on denied insurance claims. I built an agent that decides which denials are worth fixing, appealing or letting go, and drafts appeal letters in which every fact cites its source.</p>
+        <div class="feature-stats">
+          <div><span class="num">99.1%</span><span class="lbl">of recoverable dollars kept</span></div>
+          <div><span class="num">94%</span><span class="lbl">of denial reasons found</span></div>
+          <div><span class="num">$0.018</span><span class="lbl">AI cost per denial</span></div>
+        </div>
+        <p class="outcomes-title">Key outcomes</p>
+        <ul class="outcomes">
+          <li>Beat the best approach without AI, which kept 82.5%, on 100 claims held back until the end</li>
+          <li>Picked the smaller model after the larger one named every cause and still lost the most money</li>
+          <li>Sent claims to a person when two separate reads disagreed, which cut money lost from $3,026 to $257</li>
+          <li>Called it ready for a supervised pilot, not for running alone, and showed why</li>
+        </ul>
+        <div class="chips"><span>Healthcare</span><span>AI agents</span><span>Evals</span><span>Human in the loop</span></div>
+        <div class="buttons">
+          <a class="btn btn-primary" href="https://vikramsagi.github.io/denial-triage/demo/">Try the live demo</a>
+          <a class="btn btn-secondary" href="https://github.com/vikramsagi/denial-triage">View case study</a>
+        </div>
       </div>
-      <div class="links">
-        <a href="https://github.com/vikramsagi/denial-triage">Case study</a>
-        <a href="https://vikramsagi.github.io/denial-triage/demo/">Live demo</a>
-      </div>
-    </li>
-  </ul>
+    </article>
+  </div>
 </section>
 
+<section id="education">
+  <div class="wrap">
+    <div class="section-head"><h2>Education</h2></div>
+    <div class="edu-grid">
+      <article class="edu-card">
+        <strong>New York University</strong>
+        <span class="degree">M.S. Management of Technology (Data Science and Product)</span>
+        <span class="when">2021 to 2023</span>
+        <div class="gpa"><span class="num">3.96</span><span class="lbl">GPA out of 4.0</span></div>
+        <ul class="honors">
+          <li>Gold medalist</li>
+          <li>George Schillinger Award recipient</li>
+          <li>Vice president of the NYU Tandon Consulting Club</li>
+        </ul>
+      </article>
+      <div class="edu-side">
+        <article class="edu-card">
+          <strong>Mahindra University</strong>
+          <span class="degree">B.Tech Mechanical Engineering</span>
+          <span class="when">2016 to 2020</span>
+        </article>
+        <article class="edu-card">
+          <strong>Certifications</strong>
+          <ul class="honors">
+            <li>Claude Certified Architect (Professional)</li>
+            <li>Certified Scrum Product Owner (CSPO)</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer>
-  <div class="wrap narrow small muted"><span>Vikram Sagi · <a href="https://www.linkedin.com/in/vikramsagi1">LinkedIn</a> · <a href="https://github.com/vikramsagi">GitHub</a></span></div>
+  <div class="wrap"><span>Vikram Sagi</span><span><a href="https://www.linkedin.com/in/vikramsagi1">LinkedIn</a> · <a href="https://github.com/vikramsagi">GitHub</a></span></div>
 </footer>
 </body>
 </html>
